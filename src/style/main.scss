@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$white: #FFFFFF;
+$grey: #F8F9FA;
+$footer-gray: #F2F2F2;
+$divider: #DADCE0;
+
+html {
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.wrapper, .footer, .searchbar, .divider {
+    overflow: hidden;
+    
+}
+
+.wrapper {
+    overflow: hidden;
+    margin: 0;
+    width: 100vw;
+    height: 85vh;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.searchbar {
+    border-radius: 25px;
+    padding: 0.5rem;
+    border-width: 0.2px;
+    border-color: $grey;
+    outline-color: transparent;
+    width: 40%;
+}
+
+.searchbar:hover {
+    box-shadow: 0px 0px 13px -8px #000000  ;
+}
+
+.buttons button{
+    padding: 0.5rem;
+    background-color: $grey;
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+.footer {
+    height: 15vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+
+.firstline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.divider {
+    border-color: $divider;
+    border-width: 0.1px;
+}
+
+.secondline {
+    width: 100vw;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.secondline a {
+    padding-right: 0.5rem;
+}
